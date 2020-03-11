@@ -1,0 +1,239 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 400px) {
+*/
+
+body{
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 1.6em;
+    margin: 0;
+    padding-top: 0.6rem;
+}
+
+.container{
+    width: 70rem;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.container-1{
+    display: flex;
+    flex-direction: row;
+    margin: 0rem auto;
+    width: 70rem;
+    justify-content:space-between;
+    
+}
+
+.container-form{
+        width: 40rem;
+        margin: auto;
+        float: left;   
+}
+
+.box-1{
+    flex: 2;
+    flex-basis: 50rem;  
+    padding: 1.8rem;
+    
+}
+
+.box-2{
+    flex: 1;
+    background-color: #c5c5c5;
+    flex-basis: 20rem;
+    border: #333 solid 1px;
+    margin-top: 2rem;
+    padding: 1.8rem;
+}
+
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 0.6rem 0.9rem;
+    border: none;
+    margin: auto;
+}
+
+.button:hover{
+    background: #79ff61;
+    color: #fff;
+}
+
+#main-header{
+    background: #333;
+    font-family: 'Press Start 2P';
+    letter-spacing: 0.3rem;
+    line-height: 2.2rem;
+    border: 1px solid #fff;
+    text-shadow: 3px 3px 3px #79ff61;    
+    color: #fff;
+    -webkit-text-stroke: 0.1px black;
+    -webkit-text-fill-color: white;
+    padding-left: 0.5rem;    
+    width: 99%;
+    margin: auto;
+    font-size: 0.9rem;
+}
+
+#navbar{
+    background-color: #c5c5c5;
+    border: 1px solid #fff;
+    width: 99%;
+    margin: auto;
+    padding-left: 0.5rem;
+    
+}
+
+#navbar ul{
+    padding-right: 0.9rem;
+    padding-left: 0.9rem;
+    list-style: none;
+    word-spacing: 0.3rem;
+}
+
+#navbar li{
+    display: inline;
+    letter-spacing: 0.1rem;    
+}
+
+#navbar a{
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;    
+}
+
+#navbar a:hover{
+    color: #79ff61;
+}
+
+#showcase{
+    background-image: url('../images/showcase.jpg');
+    background-position: center;
+    height: 15rem;
+    margin-bottom: 1.8rem;
+    font-family: 'Press Start 2P';
+    -webkit-text-stroke: 0.1px black;
+    text-align: left;
+    background-repeat: no-repeat;
+    border: 1px double #fff;
+    width: 99%;
+    margin: auto;
+    padding-left: 0.5rem;
+}
+
+#showcase h1{
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 1.6em;
+    padding-top: 1.8rem;
+}
+
+#main{
+    padding: 1.8rem;
+    line-height: 2em;
+}
+
+#sidebar{    
+    background: #c5c5c5;
+    color: #333;
+    padding: 1rem;
+    border: 1px solid #333;
+}
+
+#main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    border: 1px double #fff;
+    width: 100%;
+    margin: 0rem auto;
+    box-sizing: border-box;
+}
+
+.myForm{
+    padding: 2.5rem;
+}
+
+.myForm .formGroup{
+    padding-bottom: 2.5rem;
+}
+
+.myForm label{
+    display: block;
+}
+
+.myForm input[type="text"], .myForm textarea {
+    padding: 0.5rem;
+    width: 90%;
+}
+
+img{
+    border: #333 solid;
+}
+
+@media screen and (max-width: 69rem) {
+
+    img{
+        width: auto ;
+        max-width: 100% ;
+        height: auto;
+        border: #333 solid;
+      }
+
+    .container{
+        width: 100%;         
+        margin: 0rem auto;    
+    }
+
+    .container-1{
+        width: 100%;
+        margin: 0rem auto;
+        flex-direction: row; 
+        display: flex;
+        flex-wrap: wrap;        
+    }
+
+    .container-form{
+        width: 100%;        
+        margin: 0rem auto;
+        float: left;
+    }
+
+    .box-1{
+        width: 100%;
+        float: left; 
+               
+    }
+
+    .box-2{
+        width: 100%;
+        float: left;
+        margin: 1rem;     
+          
+    }
+
+    #main-header, #navbar, #showcase, #main{
+        width: 100%;
+        float: left;
+        
+    }
+}
+
+
+
+
+
+
+
